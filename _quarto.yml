@@ -1,12 +1,13 @@
 project:
   type: website
   output-dir: docs 
+  resources:
+    - CNAME  # <-- Bu satır, dosyanın yayınlanan klasöre gitmesini garanti eder.
   
 website:
-  title: "Vault"            # change to your site title
+  title: "Pilevneli"            # change to your site title
   site-url: "https://pilevneli.github.io/vault/" # Google SEO için bu satır ŞARTTIR
   description: "Veri Bilimi Portfolyosu ve Blog Yazıları" 
-  base-url: "/vault/"
 
   navbar:
     background: primary

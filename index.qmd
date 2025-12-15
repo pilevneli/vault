@@ -1,5 +1,18 @@
 ---
 title: "Tolga Pilevneli"
+image: images/plv_logo.jpg # Klasörde bir vesikalık foto olsun
+about:
+  template: jolla # Seçenekler: jolla, trestles, broadside
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com
+    - icon: github
+      text: Github
+      href: https://github.com
+    - icon: envelope
+      text: Email
+      href: mailto:email@domain.com
 ---
 
 This is a Quarto website.

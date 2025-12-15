@@ -1,5 +1,6 @@
 ---
 title: "About"
+draft: true
 image: images/about.JPG
 about:
   template: jolla
