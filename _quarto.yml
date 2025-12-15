@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs 
+  
+website:
+  title: "Vault"            # change to your site title
+  site-url: "https://pilevneli.github.io/vault/" # Google SEO için bu satır ŞARTTIR
+  description: "Veri Bilimi Portfolyosu ve Blog Yazıları" 
+  base-url: "/vault/"
+
+  navbar:
+    background: primary
+    search: true 
+    # Navbar 'üstte' yatay bir şerittir.
+    # 'left' altındaki linkler, şeridin soluna dizilir.
+    left: 
+      - href: index.qmd
+        text: Ana Sayfa
+      - href: about.qmd
+        text: Hakkımda
+    # 'right' altındakiler şeridin sağına dizilir (Genelde ikonlar buraya konur).
+    right:
+      - icon: github
+        href: https://github.com/
+      - icon: linkedin
+        href: https://linkedin.com/
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    
+editor: visual
+

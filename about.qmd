@@ -1,0 +1,16 @@
+---
+title: "About"
+image: images/about.JPG
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/tolga-pilevneli
+---
+
+About this site
+
+```{r}
+1 + 1
+```
