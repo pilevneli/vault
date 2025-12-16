@@ -22,14 +22,17 @@ website:
     # 'right' altındakiler şeridin sağına dizilir (Genelde ikonlar buraya konur).
     right:
       - icon: github
-        href: https://github.com/
+        href: https://github.com/pilevneli
       - icon: linkedin
-        href: https://linkedin.com/
+        href: https://www.linkedin.com/in/tolga-pilevneli/
+      - icon: mortarboard-fill
+        href: https://avesis.ankara.edu.tr/tpilevneli
 
 format:
   html:
     theme: cosmo
     css: styles.css
+    include-after-body: js-scripts.html
     toc: true
     
 editor: visual

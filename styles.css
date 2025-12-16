@@ -1,1 +1,17 @@
 /* css styles */
+
+/* Jolla: logo – çerçevesiz ve temiz */
+.quarto-about-jolla img.about-image{
+  width: 200px !important;     /* ihtiyaca göre 300–420 arası oynatabilirsin */
+  height: auto !important;
+  max-width: 100% !important;
+  object-fit: contain !important;
+
+  /* ÇERÇEVEYİ KALDIR */
+  padding: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+
+  display: block !important;
+}

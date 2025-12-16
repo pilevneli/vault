@@ -1,24 +1,27 @@
 ---
-title: "Tolga Pilevneli"
+title: "Dr. Öğretim Üyesi Tolga Pilevneli"
 image: images/plv_logo.jpg # Klasörde bir vesikalık foto olsun
 about:
   template: jolla # Seçenekler: jolla, trestles, broadside
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/tolga-pilevneli/
     - icon: github
       text: Github
-      href: https://github.com
-    - icon: envelope
-      text: Email
-      href: mailto:email@domain.com
+      href: https://github.com/pilevneli
+    - icon: suitcase-lg
+      text: EnstituSU
+      href: https://suyonetimi.ankara.edu.tr/
+    - icon: mortarboard-fill
+      text: CV
+      href: https://avesis.ankara.edu.tr/tpilevneli
 ---
 
-This is a Quarto website.
+Merhaba. Bu site, \*\*Çevre Mühendisliği\*\* ile \*\*Veri Bilimi\*\*'ni birleştirdiğim çalışmalarımın dijital arşividir.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Bu platformda, profesyonel kariyerim boyunca yürüttüğüm ve görev aldığım projelerin çıktılarını, akademik yayınlarımı ve teknik çalışmalarımı derliyorum.
 
-```{r}
-1 + 1
-```
+Güncel paylaşımlarımdan ve duyurulardan haberdar olmak için beni [LinkedIn](https://www.linkedin.com/in/tolga-pilevneli/){target="_blank"} üzerinden takip edebilir, iş birliği ve sorularınız için sayfanın altında yer alan bağlantıları kullanabilirsiniz.
+
+

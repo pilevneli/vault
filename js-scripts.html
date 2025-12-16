@@ -1,0 +1,19 @@
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Sayfadaki istisnasız TÜM linkleri (a etiketlerini) yakala
+    var links = document.querySelectorAll('a');
+
+    links.forEach(function(link) {
+      // KONTROL 1: Linkin bir adresi (href) var mı?
+      // KONTROL 2: Link "mailto:" (e-posta) değil mi?
+      // KONTROL 3: Linkin gittiği domain (hostname), bizim sitemizin domaini ile FARKLI mı?
+      
+      if (link.href && !link.href.startsWith("mailto:") && link.hostname !== window.location.hostname) {
+        
+        // Şartlar sağlanıyorsa (yani dış linkse) yeni sekme özelliğini ekle
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer'); // Güvenlik standardı
+      }
+    });
+  });
+</script>
